@@ -1,0 +1,71 @@
+/* Melker Blomqvist */
+
+h2{
+    text-align: center;
+}
+h1{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#header{
+    background-image: url(img/snow_winter_trees.jpg);
+    margin:15px;
+    background-size:contain;
+    background-size:cover;
+    text-align: center;
+    height: 256px;
+    border:2px solid red;
+    border-radius:5px;
+}
+#headerRow{
+    padding-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin:20px;
+    border:2px solid red;
+    border-radius:5px;
+}
+.logo{
+    width:130px;
+    height:30px;
+    padding:5px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+#left{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border:2px solid red;
+    border-radius:5px;
+}
+#center{
+    border:2px solid red;
+    border-radius:5px;
+        margin-left:10px;
+}
+#right{
+    border:2px solid red;
+    border-radius:5px;
+    margin-left:10px;
+}
+#mail{
+ border:2px solid red;
+ border-radius:5px;
+ margin-top: 10px;
+}
+#mid{
+display: flex;
+flex-direction:row;
+border:2px solid red;
+border-radius:5px;
+padding:10px;
+justify-content: space-between
+}
+.Julträd{
+    width:60px;
+    height:400px;
+}
